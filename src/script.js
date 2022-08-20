@@ -120,7 +120,7 @@ gui.add(moonLight.position, 'z').min(- 5).max(5).step(0.001)
 scene.add(moonLight)
 
 //Door Light
-
+const doorLight = new THREE.PointLight('#ff7d46', 1, 7)
 /**
  * Sizes
  */
